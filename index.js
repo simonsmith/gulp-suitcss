@@ -51,6 +51,6 @@ function suitcss(opts) {
           fileName: file.path,
           showStack: !cssError,
         }));
-    });
+      });
   });
 }
