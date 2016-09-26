@@ -18,10 +18,11 @@
   "homepage": "https://github.com/Casear/gulp-suitcss",
   "dependencies": {
     "gulp-util": "^3.0.2",
-    "suitcss-preprocessor": "^0.4.0",
-    "through-gulp": "^0.3.8"
+    "suitcss-preprocessor": "^2.0.0",
+    "through2": "^2.0.1"
   },
   "devDependencies": {
-    "tap": "^0.4.13"
+    "chai": "^3.5.0",
+    "mocha": "^3.0.2"
   }
 }
