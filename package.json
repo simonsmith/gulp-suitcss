@@ -4,7 +4,7 @@
   "description": "Preprocess and validate SUIT CSS components",
   "main": "index.js",
   "scripts": {
-    "test": "tap ./test"
+    "test": "mocha test.js"
   },
   "repository": {
     "type": "git",
@@ -19,11 +19,13 @@
     "postcss",
     "suit"
   ],
-  "contributors": [{
-    "name": "Simon Smith",
-    "url": "https://simonsmith.io",
-    "email": "me@simonsmith.io"
-  }],
+  "contributors": [
+    {
+      "name": "Simon Smith",
+      "url": "https://simonsmith.io",
+      "email": "me@simonsmith.io"
+    }
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/suitcss/gulp-suitcss/issues"
@@ -31,6 +33,7 @@
   "homepage": "https://github.com/suitcss/gulp-suitcss",
   "dependencies": {
     "gulp-util": "^3.0.2",
+    "lodash.assign": "^4.2.0",
     "suitcss-preprocessor": "^2.0.0",
     "through2": "^2.0.1"
   },
