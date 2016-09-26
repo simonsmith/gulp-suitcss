@@ -8,14 +8,27 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Casear/gulp-suitcss.git"
+    "url": "https://github.com/suitcss/gulp-suitcss.git"
   },
   "author": "Casear Chu <casear.chu@chuto.tw> (http://casear.chuto.tw/)",
+  "keywords": [
+    "css",
+    "preprocessor",
+    "stylelint",
+    "pure",
+    "postcss",
+    "suit"
+  ],
+  "contributors": [{
+    "name": "Simon Smith",
+    "url": "https://simonsmith.io",
+    "email": "me@simonsmith.io"
+  }],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Casear/gulp-suitcss/issues"
+    "url": "https://github.com/suitcss/gulp-suitcss/issues"
   },
-  "homepage": "https://github.com/Casear/gulp-suitcss",
+  "homepage": "https://github.com/suitcss/gulp-suitcss",
   "dependencies": {
     "gulp-util": "^3.0.2",
     "suitcss-preprocessor": "^2.0.0",
