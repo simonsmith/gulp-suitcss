@@ -1,7 +1,6 @@
 var gutil = require('gulp-util');
 var through = require('through2');
 var preprocessor = require('suitcss-preprocessor');
-var assign = require('lodash.assign');
 
 module.exports = suitcss;
 
@@ -21,14 +20,7 @@ function suitcss(opts) {
       return;
     }
 
-    assign(opts, {
-      postcss: {
-        from: file.path,
-        to: file.path,
-      },
-    });
-
-    preprocessor(file.contents.toString(), opts)
+    preprocessor(file.contents.toString(), opts, file.path)
       .then(function(result) {
         file.contents = new Buffer(result.css);
 

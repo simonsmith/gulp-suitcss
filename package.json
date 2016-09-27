@@ -35,7 +35,6 @@
   "homepage": "https://github.com/simonsmith/gulp-suitcss",
   "dependencies": {
     "gulp-util": "^3.0.2",
-    "lodash.assign": "^4.2.0",
     "suitcss-preprocessor": "^2.0.0",
     "through2": "^2.0.1"
   },
