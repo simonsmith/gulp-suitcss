@@ -1,6 +1,6 @@
 # gulp-suitcss [![Build Status](https://travis-ci.org/simonsmith/gulp-suitcss.svg?branch=master)](https://travis-ci.org/simonsmith/gulp-suitcss)
 
-> Preprocess CSS with the [suitcss-preprocessor](https://github.com/simonsmith/preprocessor)
+> Preprocess CSS with the [suitcss-preprocessor](https://github.com/suitcss/preprocessor)
 
 ## Install
 
