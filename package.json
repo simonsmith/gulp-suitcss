@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/suitcss/gulp-suitcss.git"
+    "url": "https://github.com/simonsmith/gulp-suitcss.git"
   },
   "author": "Casear Chu <casear.chu@chuto.tw> (http://casear.chuto.tw/)",
   "keywords": [
@@ -30,9 +30,9 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/suitcss/gulp-suitcss/issues"
+    "url": "https://github.com/simonsmith/gulp-suitcss/issues"
   },
-  "homepage": "https://github.com/suitcss/gulp-suitcss",
+  "homepage": "https://github.com/simonsmith/gulp-suitcss",
   "dependencies": {
     "gulp-util": "^3.0.2",
     "lodash.assign": "^4.2.0",
