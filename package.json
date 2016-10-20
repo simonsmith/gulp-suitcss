@@ -1,6 +1,6 @@
 {
   "name": "gulp-suitcss",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "Preprocess and validate SUIT CSS components",
   "main": "index.js",
   "scripts": {
@@ -35,7 +35,7 @@
   "homepage": "https://github.com/simonsmith/gulp-suitcss",
   "dependencies": {
     "gulp-util": "^3.0.2",
-    "suitcss-preprocessor": "^2.0.0",
+    "suitcss-preprocessor": "^3.0.0",
     "through2": "^2.0.1"
   },
   "devDependencies": {
