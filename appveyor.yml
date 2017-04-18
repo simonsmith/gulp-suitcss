@@ -3,7 +3,6 @@
 environment:
   matrix:
     - nodejs_version: 6
-    - nodejs_version: 5
     - nodejs_version: 4
 
 version: "{build}"
@@ -12,7 +11,7 @@ deploy: off
 
 install:
   - ps: Install-Product node $env:nodejs_version
-  - npm install
+  - yarn
 
 test_script:
   - node --version
