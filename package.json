@@ -35,13 +35,13 @@
   "homepage": "https://github.com/simonsmith/gulp-suitcss",
   "dependencies": {
     "gulp-util": "^3.0.2",
-    "suitcss-preprocessor": "^3.0.0",
+    "suitcss-preprocessor": "^4.0.0",
     "through2": "^2.0.1"
   },
   "devDependencies": {
     "chai": "^3.5.0",
-    "mocha": "^3.0.2",
     "eslint": "^3.5.0",
-    "eslint-config-airbnb": "^11.1.0"
+    "eslint-config-airbnb": "^14.1.0",
+    "mocha": "^3.0.2"
   }
 }
