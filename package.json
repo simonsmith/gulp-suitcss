@@ -1,6 +1,6 @@
 {
   "name": "gulp-suitcss",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "description": "Preprocess and validate SUIT CSS components",
   "main": "index.js",
   "scripts": {
@@ -12,7 +12,10 @@
     "type": "git",
     "url": "https://github.com/simonsmith/gulp-suitcss.git"
   },
-  "author": "Casear Chu <casear.chu@chuto.tw> (http://casear.chuto.tw/)",
+  "author": {
+    "name": "Simon Smith",
+    "url": "https://simonsmith.io"
+  },
   "keywords": [
     "css",
     "preprocessor",
@@ -20,13 +23,6 @@
     "pure",
     "postcss",
     "suit"
-  ],
-  "contributors": [
-    {
-      "name": "Simon Smith",
-      "url": "https://simonsmith.io",
-      "email": "me@simonsmith.io"
-    }
   ],
   "license": "MIT",
   "bugs": {
